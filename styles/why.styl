@@ -1,0 +1,67 @@
+.wrapper-why
+	position relative
+	background  #ececec	
+	.why-path
+		background url('../images/path.png') repeat-x
+		height 19px
+	.why
+		width 100%
+		background  #ececec
+		min-height 400px
+		p.why-title
+			font-family OpenSans-Semibold
+			font-size 40px
+			color #e1524b
+			text-align center
+			padding-top 70px
+			padding-bottom 15px
+		p.why-text
+			font-family OpenSans
+			font-size 12px
+			color #969696
+			text-align center
+			padding-bottom 38px
+		.why-image
+			float none
+			height auto
+			width auto
+			max-width 100%
+			position absolute
+			left 26%
+			z-index 100
+		.why-image-left
+			float left
+			z-index 1
+			height auto
+			width auto
+			max-width 100%
+		.why-image-right
+			z-index 1
+			float right
+			height auto
+			width auto
+			max-width 100%
+		@media screen and (max-width: 1130px)
+			.why-image
+				position relative
+				left 0
+				max-width 44%
+			.why-image-left,.why-image-right
+				max-width 28%
+		@media screen and (max-width: 950px)
+			.why-image,.why-image-left,.why-image-right
+				max-width 100%
+				margin-left 2%
+				margin-top 2%
+			.why-image-right
+				float left
+	@media screen and (max-width: 950px)
+		.why
+			min-height 1170px
+.wrapper-img
+	width 100%
+	background  #f3f3f3
+	min-height 195px
+@media screen and (max-width: 1130px)
+		.wrapper-img
+			display none

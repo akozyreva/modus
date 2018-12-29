@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '2213';
+  src: url('2213.eot');
+  src: url('2213.woff2') format('woff2'),
+       url('2213.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiboldItalic';
+  src: url('OpenSans-SemiboldItalic.woff') format('woff'),
+       url('OpenSans-SemiboldItalic.ttf') format('truetype'),
+       url('OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

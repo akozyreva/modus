@@ -1,0 +1,95 @@
+.main-slider
+	overflow hidden
+	display flex
+	min-height 500px
+	padding-top 80px
+@media screen and (max-width: 800px) {
+  	.main-slider{
+    	padding-top 0px
+  			}
+		}
+	.slider-left,.slider-right
+		position relative
+		background #7f8c8c
+		max-width 20%
+		flex 1
+	.slider
+		overflow hidden
+		position relative
+		max-width 1170px
+		margin 0 auto
+		flex 1
+		background #7f8c8c
+		.slider-title
+			position absolute
+			top 20%
+			left 50%
+			transform translate(-50%, -20%)
+			p
+				font-family OpenSans-Extrabold
+				background #e2534b
+				border-radius 5px
+				font-size 50px
+				color #fff
+				padding 8px 14px
+		@media screen and (max-width: 800px) {
+  			.slider-title p {
+    			font-size 5.5vw
+  			}
+		}
+		.slider-text
+			position absolute
+			border-radius 4px
+			background #3f4646
+			top 43%
+			left 50%
+			transform translate(-50%, -50%)
+			text-align center
+			min-width 470px
+			p
+				font-family OpenSans
+				font-size 16px
+				color #fff
+				padding 17px 37px
+				line-height 1.5
+		@media screen and (max-width: 800px) {
+  			.slider-text{
+    			top 61%
+    			min-width auto
+  			}
+		}
+		@media screen and (max-width: 800px) {
+  			.slider-text p{
+    			font-size 2.5vw
+    			display inline-block
+  			}
+		}
+.move
+	position absolute
+	width 50px
+	height 60px
+	top 38%
+	//background #e8645a
+	background #98a3a3
+	p
+		font-family OpenSans
+		font-size 30px
+		color #fff
+		text-align center
+		margin-top 8px
+		cursor pointer
+.move.left-pointer
+	border-top-right-radius 8px
+	border-bottom-right-radius 8px
+.move.right-pointer
+	border-top-left-radius 8px
+	border-bottom-left-radius 8px
+	right 0
+@media screen and (max-width: 800px) {
+  			.move{
+    			top 50%
+  			}
+		}
+		
+.slider-none
+	display none
